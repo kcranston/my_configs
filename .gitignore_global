@@ -1,0 +1,8 @@
+*~
+.DS_Store
+.gz
+
+# latex
+.aux
+.log
+
