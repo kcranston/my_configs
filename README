@@ -1,1 +1,3 @@
 Various config files to make setting up new machine faster
+
+The make_links script makes symbolic links from the location of this git repo to the home directory
