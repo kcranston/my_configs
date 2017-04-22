@@ -10,9 +10,7 @@ ZSH_THEME="karen"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-#alias sqlite='/usr/local/Cellar/sqlite/3.8.0.2/bin/sqlite3'
-alias sqlite='/usr/bin/sqlite3'
-alias ipynb='ipython notebook --pylab=inline'
+# alias sqlite='/usr/bin/sqlite3'
 
 # Set to this to use case-sensitive completion
 CASE_SENSITIVE="true"
