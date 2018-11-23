@@ -1,8 +1,9 @@
 #!/bin/bash
 
-WKDIR="/Users/karen/Documents/my_configs"
+WKDIR="$(pwd)"
+echo "Making links from $WKDIR to $HOME"
 
-ln -s $WKDIR/.vimrc $HOME
-ln -s $WKDIR/.gitignore_global $HOME
-ln -s $WKDIR/.zshrc $HOME
-ln -s $WKDIR/karen.zsh-theme $HOME/.oh-my-zsh/themes
+ln -sf $WKDIR/.vimrc $HOME
+ln -sf $WKDIR/.gitignore_global $HOME
+ln -sf $WKDIR/.zshrc $HOME
+ln -sf $WKDIR/karen.zsh-theme $HOME/.oh-my-zsh/themes
