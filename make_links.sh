@@ -1,6 +1,7 @@
 #!/bin/bash
 
-WKDIR="/Users/karen/Documents/my_configs"
+WKDIR=$(pwd)
+echo $WKDIR
 
 ln -s $WKDIR/.vimrc $HOME
 ln -s $WKDIR/.gitignore_global $HOME
